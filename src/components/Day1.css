@@ -1,0 +1,27 @@
+.day1-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .day1-container h1 {
+    color: teal;
+    font-size: 36px;
+  }
+  
+  .day1-container p {
+    color: #444;
+    font-size: 18px;
+  }
+  
+  .day1-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
