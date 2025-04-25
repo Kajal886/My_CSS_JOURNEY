@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .left-panel {
+    width: 30%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  h1{
+    color: teal;
+    font-size: 36px;
+  }
+  .right-panel {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .left-panel,
+    .right-panel {
+      width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+  }
+  
+  
