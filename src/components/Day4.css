@@ -1,0 +1,17 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+  }
+  
+  .dark-theme {
+    --bg-color: #222222;
+    --text-color: #ffffff;
+  }
+  
+  .theme-container {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
